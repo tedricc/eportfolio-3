@@ -13,19 +13,24 @@ const about = [
   "JavaScript",
   "React",
   "TypeScript",
+  "Next.js",
   "GitHub",
   "NPM",
+  "SQL",
+  "Python",
+  "Tableau",
   "Yarn",
   "ThreeJS",
-  "Context",
-  "React",
+  "Firebase",
+  // "Context",
+  // "React",
   "Redux",
   "State Management",
-  "Vue",
-  "AWS",
+  // "Vue",
+  // "AWS",
   "CSS frameworks",
-  "Web Widgets",
-  "Wordpress",
+  // "Web Widgets",
+  // "Wordpress",
 ];
 
 function randomSkill() {
@@ -117,7 +122,7 @@ export default function Landing() {
           <a target="_blank" rel="no-refferer" href="https://www.linkedin.com/in/tedric-chow/">
             <img src={linkedinIcon} alt="linkedinIcon" />
           </a>
-          <a target="_blank" rel="no-refferer" href="./public/Resume__Tedric--2024">
+          <a target="_blank" rel="no-refferer" href="https://github.com/tedricc/eportfolio-3/blob/main/public/Resume__Tedric--2024.pdf">
             <img src={resumeIcon} alt="resumeIcon" />
           </a>
         </div>

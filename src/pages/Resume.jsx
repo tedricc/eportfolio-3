@@ -21,21 +21,25 @@ const Resume = () => {
       <div className="resume__wrapper">
         <div className="resume__grid" data-aos="fade-up" data-aos-delay="500">
           <div className="resume__image">
-            <img src={Me} alt="" />
+            {/* <img src={Me} alt="" /> */}
           </div>
           <div>
-            <div className="resume__name playfair">David Bragg</div>
+            <div className="resume__name playfair">Tedric Chow</div>
             <div className="resume__title lato">Software Engineer</div>
             <div className="resume__contact--info">
               <div>
                 <FaDownload />
-                <a className="resume__link" href="/resume.pdf" target="_blank">
+                <a
+                  className="resume__link"
+                  href="https://github.com/tedricc/eportfolio-3/blob/main/public/Resume__Tedric--2024.pdf"
+                  target="_blank"
+                >
                   Download resume
                 </a>
               </div>
               <div>
                 <MdEmail />
-                <a className="resume__link" href="mailto:example@example.com">
+                <a className="resume__link" href="mailto:chow.tedric@gmail.com">
                   Email
                 </a>
               </div>
@@ -43,7 +47,7 @@ const Resume = () => {
                 <AiFillLinkedin />
                 <a
                   className="resume__link"
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/in/tedric-chow/"
                   target="_blank"
                 >
                   Linkedin
@@ -64,14 +68,17 @@ const Resume = () => {
             <div className="resume__education--wrapper">
               <div className="resume__education">
                 <div className="resume__job--name">
-                  University of Technology, Sydney
+                  Nanyang Technological University, Singapore
                 </div>
                 <div>
-                  Bachelor of Engineering (Honours), Software Engineering Major
-                  Diploma in Professional Engineering Practice
+                  Bachelor of Business, Honours (Distinction) with a
+                  Specialisation in Business Analytics
+                  <br></br>
+                  Business Analytics Project: Predicting Machinery Failure with
+                  Machine Learning
                 </div>
               </div>
-              <div className="resume__job--date">2018 - 2021</div>
+              <div className="resume__job--date">Aug 2020 - Jan 2024</div>
             </div>
           </div>
         </div>
@@ -127,7 +134,11 @@ const Resume = () => {
           </div>
         </div>
 
-        <div className="resume__grid resume__bottom" data-aos="fade-up" data-aos-delay="500">
+        <div
+          className="resume__grid resume__bottom"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           <div className="resume__title--description">References</div>
           <div>Available Upon request</div>
         </div>

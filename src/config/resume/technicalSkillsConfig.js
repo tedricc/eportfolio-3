@@ -1,11 +1,11 @@
 export const technicalSkillsConfig = [
+  "HTML5",
+  "CSS3",
   "JavaScript",
-  "TypeScript",
+  "kdb+",
   "React",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "JavaScript",
-  "TypeScript",
-  "React",
+  "NPM",
+  "Git",
+  "Firebase",
+  "Tableau",
 ];

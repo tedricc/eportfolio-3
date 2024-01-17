@@ -102,13 +102,12 @@ function About() {
           website development.
         </div>
         <div className="about__right lato">
-          Currently employed as a software engineer at Canva, I work on
-          extremely difficult engineering problems every day in a team
-          consisting of some of the most talented and experienced software
-          engineers.
+          I'm a final year undergraduate pursuing a bachelor's degree in
+          Business, specializing in Business/Data Analytics at the Nanyang
+          Technological University.
           <br />
           <br />
-          Continuously working towards improving my knowledge and skills to
+          I'm continuously working towards improving my knowledge and skills to
           develop technologies that contribute to the betterment of society.
         </div>
       </div>

@@ -213,11 +213,13 @@ a {
 .about__left {
   font-size: 42px;
   font-weight: 400;
+  margin: 40px 0px;
 }
 
 .about__right {
   line-height: 28px;
   font-size: 18px;
+  margin: 40px 0px;
 }
 
 #clouds {

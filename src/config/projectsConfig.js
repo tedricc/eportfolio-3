@@ -1,60 +1,68 @@
-import NftCoverImage from "../assets/project-images/NFT/nft-cover.png";
-import NftFrontImage from "../assets/project-images/NFT/nft-front.png";
-import NftFirstImage from "../assets/project-images/NFT/nft-desktop.png";
-import NftSecondImage from "../assets/project-images/NFT/nft-phones-1.jpg";
-import NftThirdImage from "../assets/project-images/NFT/nft-phones-2.jpg";
+// import NftCoverImage from "../assets/project-images/NFT/nft-cover.png";
+// import NftFrontImage from "../assets/project-images/NFT/nft-front.png";
+// import NftFirstImage from "../assets/project-images/NFT/nft-desktop.png";
+// import NftSecondImage from "../assets/project-images/NFT/nft-phones-1.jpg";
+// import NftThirdImage from "../assets/project-images/NFT/nft-phones-2.jpg";
 
-import TreactCoverImage from "../assets/project-images/treact/treact-cover.jpg";
-import TreactFrontImage from "../assets/project-images/treact/treact-front.png";
-import TreactFirstImage from "../assets/project-images/treact/treact-desktop.png";
-import TreactSecondImage from "../assets/project-images/treact/treact-phones-1.jpg";
-import TreactThirdImage from "../assets/project-images/treact/treact-phones-2.png";
+// import TreactCoverImage from "../assets/project-images/treact/treact-cover.jpg";
+// import TreactFrontImage from "../assets/project-images/treact/treact-front.png";
+// import TreactFirstImage from "../assets/project-images/treact/treact-desktop.png";
+// import TreactSecondImage from "../assets/project-images/treact/treact-phones-1.jpg";
+// import TreactThirdImage from "../assets/project-images/treact/treact-phones-2.png";
 
-import EcommerceCover from "../assets/project-images/ecommerce/ecommerce-cover.png";
-import EcommerceFrontImage from "../assets/project-images/ecommerce/ecommerce-front.png";
-import EcommerceFirstImage from "../assets/project-images/ecommerce/ecommerce-desktop.png";
-import EcommerceSecondImage from "../assets/project-images/ecommerce/ecommerce-phones-1.jpg";
-import EcommerceThirdImage from "../assets/project-images/ecommerce/ecommerce-phones-2.jpg";
+// import EcommerceCover from "../assets/project-images/ecommerce/ecommerce-cover.png";
+// import EcommerceFrontImage from "../assets/project-images/ecommerce/ecommerce-front.png";
+// import EcommerceFirstImage from "../assets/project-images/ecommerce/ecommerce-desktop.png";
+// import EcommerceSecondImage from "../assets/project-images/ecommerce/ecommerce-phones-1.jpg";
+// import EcommerceThirdImage from "../assets/project-images/ecommerce/ecommerce-phones-2.jpg";
+
+import nftCover from "../assets/project-images/nft_cover.png";
+import ecommerceCover from "../assets/project-images/ecommerce_cover.png";
+import animeCover from "../assets/project-images/anime_cover.png";
+
+import nftFront from "../assets/project-images/nft marketplace.png";
+import ecommerceFront from "../assets/project-images/summarist.png";
+import animeFront from "../assets/project-images/anime search.png";
 
 const projectsConfig = [
   {
     title: "NFT Marketplace",
     type: "Web App",
     description:
-      "1Fair Work, Building & Construction needed a better faster, less labor intensive way of providing advice to people on site. Feel created a choose your own adventure style scenario based app which allows people to quickly navigate through real life scenarios in order to get workplace rights and responsibilities advice on a number of topics, instantly.",
-    liveLink: "https://nft-place.web.app/",
-    githubLink: "",
-    coverImage: NftCoverImage,
-    topImage: NftFrontImage,
-    firstImage: NftFirstImage,
-    secondImage: NftSecondImage,
-    thirdImage: NftThirdImage,
+      "A functional NFT Marketplace. The marketplace connects to an external database of NFT products, creators, and owners. Fully responsive with dynamic routing. Utilized Git version control to upload steady changes and features.",
+    liveLink: "https://tedric-internship.vercel.app/",
+    githubLink: "https://github.com/tedricc/tedric-internship",
+    coverImage: nftCover,
+    topImage: nftFront,
+    // firstImage: NftFirstImage,
+    // secondImage: NftSecondImage,
+    // thirdImage: NftThirdImage,
   },
   {
-    title: "Treact",
+    title: "eBook Platform",
     type: "Web App",
     description:
-      "2Fair Work, Building & Construction needed a better faster, less labor intensive way of providing advice to people on site. Feel created a choose your own adventure style scenario based app which allows people to quickly navigate through real life scenarios in order to get workplace rights and responsibilities advice on a number of topics, instantly.",
-    liveLink: "https://jonathan6242.github.io/treact/",
-    githubLink: "https://jonathan6242.github.io/treact/",
-    coverImage: TreactCoverImage,
-    topImage: TreactFrontImage,
-    firstImage: TreactFirstImage,
-    secondImage: TreactSecondImage,
-    thirdImage: TreactThirdImage,
+      "A functional eBook platform. The platform connects to an external API to fetch various eBooks and Firebase for authentication and a backend cloud datastore. Stripe handles subscriptions and payments with a Firebase extension.",
+    liveLink: "https://tedric-advanced-internship.vercel.app/",
+    githubLink: "https://github.com/tedricc/tedric-advanced-internship",
+    coverImage: ecommerceCover,
+    topImage: ecommerceFront,
+    // firstImage: TreactFirstImage,
+    // secondImage: TreactSecondImage,
+    // thirdImage: TreactThirdImage,
   },
   {
-    title: "React Ecommerce",
+    title: "Anime Search Project",
     type: "Web App",
     description:
-      "3air Work, Building & Construction needed a better faster, less labor intensive way of providing advice to people on site. Feel created a choose your own adventure style scenario based app which allows people to quickly navigate through real life scenarios in order to get workplace rights and responsibilities advice on a number of topics, instantly.",
-    liveLink: "",
-    githubLink: "",
-    coverImage: EcommerceCover,
-    topImage: EcommerceFrontImage,
-    firstImage: EcommerceFirstImage,
-    secondImage: EcommerceSecondImage,
-    thirdImage: EcommerceThirdImage,
+      "A functional search engine. Built using the React library, the connected AniList GraphQL API enables users to discover various animated programs through dynamic routing. Fully responsive and can be connected to different APIs for other functions.",
+    liveLink: "https://effortless-malabi-f8734b.netlify.app/",
+    githubLink: "https://github.com/tedricc/anime-search-react",
+    coverImage: animeCover,
+    topImage: animeFront,
+    // firstImage: EcommerceFirstImage,
+    // secondImage: EcommerceSecondImage,
+    // thirdImage: EcommerceThirdImage,
   },
 ];
 

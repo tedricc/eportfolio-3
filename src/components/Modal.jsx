@@ -13,7 +13,7 @@ function Modal({ isOpen, project, closeHandler }) {
             <div className="modal__top--image">
               <img src={project.topImage} alt="" />
             </div>
-            <div className="modal__scroll-down">Scroll down</div>
+            {/* <div className="modal__scroll-down">Scroll down</div> */}
           </div>
 
           <div className="modal__project--background">
@@ -40,7 +40,7 @@ function Modal({ isOpen, project, closeHandler }) {
             </div>
           </div>
         </div>
-        <div className="modal__grid--wrapper">
+        {/* <div className="modal__grid--wrapper">
           <div className="modal__grid--left modal__grid">
             <div className="modal__grid--image">
               <img src={project.firstImage} alt="" />
@@ -59,7 +59,7 @@ function Modal({ isOpen, project, closeHandler }) {
               <img src={project.thirdImage} alt="" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   } else {
