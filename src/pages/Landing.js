@@ -122,7 +122,7 @@ export default function Landing() {
           <a target="_blank" rel="no-refferer" href="https://www.linkedin.com/in/tedric-chow/">
             <img src={linkedinIcon} alt="linkedinIcon" />
           </a>
-          <a target="_blank" rel="no-refferer" href="https://github.com/tedricc/eportfolio-3/blob/main/src/assets/Resume__Tedric--2024.pdf">
+          <a target="_blank" rel="no-refferer" href="https://github.com/tedricc/eportfolio-3/blob/main/src/assets/Resume__Tedric--022024.pdf">
             <img src={resumeIcon} alt="resumeIcon" />
           </a>
         </div>

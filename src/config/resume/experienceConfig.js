@@ -3,11 +3,11 @@ export const experienceConfig = [
     name: "Frontend Simplified",
     title: "Intern - Frontend Developer",
     description: [
-      "Transformed a completely static HTML, CSS, JavaScript, and React single-page application into an interactive user interface using animations, transitions, and carousels",
+      "Transformed completely static HTML, CSS, JavaScript, and React single-page applications into interactive user interfaces using animations, transitions, and carousels",
       "Processed API requests with Axios to dynamically represent data from a cloud server and showcased it through skeleton loading states, pagination, and dynamic routing",
       "Utilized Git version control and the GitHub interface to work and thrive in a virtual and collaborative team environment",
     ],
-    date: "Jun - Aug 2023",
+    date: "Jun - Dec 2023",
   },
   {
     name: "Singapore Exchange",

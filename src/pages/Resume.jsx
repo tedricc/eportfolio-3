@@ -31,7 +31,7 @@ const Resume = () => {
                 <FaDownload />
                 <a
                   className="resume__link"
-                  href="https://github.com/tedricc/eportfolio-3/blob/main/src/assets/Resume__Tedric--2024.pdf"
+                  href="https://github.com/tedricc/eportfolio-3/blob/main/src/assets/Resume__Tedric--022024.pdf"
                   target="_blank"
                 >
                   Download resume

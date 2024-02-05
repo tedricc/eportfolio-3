@@ -34,7 +34,7 @@ const Footer = () => {
           <a
             target="_blank"
             rel="no-refferer"
-            href="https://github.com/tedricc/eportfolio-3/blob/main/src/assets/Resume__Tedric--2024.pdf"
+            href="https://github.com/tedricc/eportfolio-3/blob/main/src/assets/Resume__Tedric--022024.pdf"
           >
             Resume
           </a>
